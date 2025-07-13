@@ -1,0 +1,6 @@
+{
+    "name": "C++ Compiler",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [5000],
+    "postCreateCommand": "pip install -r requirements.txt"
+}
