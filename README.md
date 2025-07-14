@@ -1,6 +1,6 @@
 # online-compiler-demo
 
-https://allthepics.net/image/Screenshot-2025-07-13-221219.QjVj1https://allthepics.net/image/Screenshot-2025-07-13-221219.QjVj1
+https://allthepics.net/image/QjVj1
 
 A minimal online C++ compiler built with Flask, running entirely in GitHub Codespaces. Perfect for quick code testing without local setup.
 

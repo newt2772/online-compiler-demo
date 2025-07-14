@@ -1,11 +1,14 @@
 {
-  "name": "C++ Online Compiler",
+  "name": "C++ Compiler",
   "dockerFile": "Dockerfile",
   "forwardPorts": [5000],
-  "postCreateCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "pip install -r requirements.txt && g++ --version",
   "customizations": {
     "vscode": {
-      "extensions": ["ms-vscode.cpptools"]
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-python.python"
+      ]
     }
   }
 }
