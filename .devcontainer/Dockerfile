@@ -5,5 +5,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
+RUN pip3 install --upgrade pip
+
 # For input handling (new dependency)
 RUN pip3 install watchdog
